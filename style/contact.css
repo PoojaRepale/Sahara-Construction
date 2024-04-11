@@ -4,6 +4,39 @@ body {
     background-color: rgba(216, 214, 212, 0.816);
     overflow-x: hidden;
 }
+
+/* media query */
+@media screen and (max-width: 950px) {
+    
+
+    .addr{
+        margin: auto;
+    }
+
+    .isolate{
+        margin: 30px auto;
+    }
+
+    .address{
+        width: auto;
+    }
+
+    .address .add{
+        width: auto;
+    }
+
+    footer{
+        height: auto;
+    }
+
+    .footer-box{
+        height: auto;
+    }
+}
+
+
+
+
 /* navbar */
 .navbar {
     background-color: rgb(0, 0, 0);
@@ -25,7 +58,7 @@ body {
 
 /* image main */
 section {
-    background: url(./../images/services-images/service7.jpg) no-repeat;
+    background: url(./../images/services-images/service5.jpg) no-repeat;
     background-size: cover;
     height: 700px;
     position: relative;
@@ -49,28 +82,104 @@ section .box .main-para {
 
 section .box h1 {
     color: rgb(255, 255, 255);
-    font-size: 72px;
-    line-height: 80px;
+    font-size: 100px;
+    line-height: 110px;
     text-align: center;
     font-family: "Rufina", serif;
     font-weight: 700;
     font-style: normal;
 }
 
-section .box p {
-    font-size: 24px;
-    line-height: 36px;
+/* head */
+.head {
+    min-height: 90px;
+    width: 100%;
+    background-color: #000000;
+    background-image: linear-gradient(225deg, #000000 0%, #ffa500 91%);
+}
+
+.head h1 {
     color: rgb(255, 255, 255);
+    font-size: 36px;
+    line-height: 90px;
+    text-align: center;
+    font-family: "Rufina", serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    margin: 30px auto;
+}
+
+.contact {
+    min-height: 700px;
+    width: auto;
+    /* border: 1px solid black; */
+    align-content: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 50px 30px;
+}
+
+.addr {
+    min-height: 700px;
+    width: 680px;
+    background-color: rgba(255, 166, 0, 0.176);
+
+}
+
+.addr img {
+    max-height: 300px;
+    max-width: 350px;
+    display: block;
+    margin: auto;
+
+}
+
+.addr .ad {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: auto;
+    /* border: 1px solid black; */
+    max-width: 300px;
+    margin: 50px auto;
+    align-content: center;
+}
+
+.addr .ad span {
+    color: orange;
+    font-size: 40px;
+
+
+}
+
+.addr .ad p {
+    color: black;
+    font-size: 22px;
+    line-height: 32px;
     font-family: "PT Serif", serif;
     font-weight: 400;
     font-style: normal;
+    margin: auto;
     text-align: center;
 }
 
 
 
+.isolate {
+    /* min-height: 700px; */
+    width: 700px;
+    background-color: rgba(255, 166, 0, 0.176);
+}
+
+form {
+
+    min-height: 680px;
 
 
+
+}
 
 
 
@@ -79,122 +188,138 @@ section .box p {
 
 
 /* footer */
-
-.footer {
-    width: auto;
-    min-height: 517px;
-    border-bottom: 0.3px solid black;
-    background-color: rgb(0, 0, 0);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    
-}
-
-.footer-para {
-    margin: auto;
-    max-width: 600px;
+footer {
+    width: 100vw;
+    background-color: black;
     min-height: 600px;
+    align-content: center;
+    border-bottom: 2px solid white;
 }
 
-.footer-para img{
-    height: 200px;
-    width: 200px;
+.footer-box {
+    min-height: 500px;
+    width: 85vw;
+    /* border: 1px solid white; */
+    margin: auto;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-bottom: 2px solid white;
+}
+
+.address {
+    min-height: 375px;
+    width: 550px;
+    
+    align-content: center;
+    /* border: 1px solid white; */
+}
+
+.address img {
+    max-height: 150px;
+    max-width: 200px;
     display: block;
     margin: auto;
 }
 
-.footer-para p{
+.address .add {
+    
+    
+    height: auto;
+    /* border: 1px solid white; */
+    width: 550px;
+    /* padding: 5px; */
+
+}
+
+.address .add span {
+    color: orange;
+    font-size: 40px;
+    /* line-height: 50px; */
+    text-align: center;
+    margin: auto 20px ;
+    /* margin-top: 20px !important; */
+}
+
+.address .add p {
     color: rgb(255, 255, 255);
     font-size: 22px;
     line-height: 32px;
     font-family: "PT Serif", serif;
     font-weight: 400;
     font-style: normal;
+    margin:10px auto;
+    /* display: block; */
     text-align: center;
 }
 
-.footer-para p a{
+.pages {
+    align-content: center;
+    margin: auto;
+    /* border: 1px solid #ffffff; */
+    align-content: center;
+}
+
+.page {
+    height: 375px;
+    width: 250px;
+    /* border: 1px solid white; */
+    /* margin:30px auto; */
+
+}
+
+
+.pages a {
+    text-decoration: none;
     color: rgb(255, 255, 255);
     font-size: 22px;
     line-height: 32px;
     font-family: "PT Serif", serif;
     font-weight: 400;
     font-style: normal;
-    text-align: center;
-    text-decoration: none;
-}
-
-.footer-para p a:hover{
-    color: orange;
-    text-decoration: underline;
-}
-
-.info {
-    margin: auto;
-    height: 400px;
-    width: 300px;
-    
-}
-
-.info-1{
-    margin-top: 160px;
-}
-
-
-.info h1 {
-    color: orange;
-    font-size: 42px;
-    line-height: 56px;
-    font-family: "Rufina", serif;
-    font-weight: 700;
-    font-style: normal;
+    display: block;
+    padding: 10px;
+    margin: 20px;
     text-align: center;
 }
 
-.info p {
-    display: block;
-    
+.pages a:hover {
+    color: orange;
 }
 
-.info p a{
-    display: block;
-    font-size: 18px;
-    line-height: 26px;
-    color: rgb(255, 255, 255);
+.dot {
+    height: 375px;
+    width: 250px;
+    margin: 20px;
+    /* margin-top: 70px; */
+    /* border: 1px solid white; */
+}
+
+.dot h1 {
+    color: orange;
+    font-size: 40px;
+    line-height: 48px;
     font-family: "PT Serif", serif;
     font-weight: 400;
     font-style: normal;
     text-align: center;
-    text-decoration: none;
-}
-
-.info p a:hover{
-    text-decoration: underline;
-    color: orange;
 }
 
 .info .icons {
-    
-    
     line-height: 60px;
     margin: auto;
     margin-top: 35px !important;
 }
 
-.info i{
+.info i {
     display: block;
     justify-items: center;
     text-align: center;
     color: rgb(255, 255, 255);
+    margin: 17px;
 }
 
-.info i:hover{
+.info i:hover {
     color: orange;
 }
-
-
-
-
-
-
