@@ -20,6 +20,8 @@ body{
     left: 25%;
     top: 32%;
     letter-spacing: 3px;
+    display: flex;
+    flex-wrap: wrap;
 
 }
 .header-col1 h5{
@@ -43,7 +45,7 @@ body{
     font-family: 'Times New Roman', Times, serif;
     text-decoration: underline orange;
 }
-
+@media (max-width:600px){
 .img-fluid{
     height: 700px;
     width: 900px;
@@ -51,7 +53,7 @@ body{
     margin-left: 300px;
     margin-bottom:60px ;
 }
-
+}
 /* cards */
 .row{
     margin-top: 80px;
