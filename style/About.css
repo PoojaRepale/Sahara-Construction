@@ -1,0 +1,251 @@
+body{
+    background-color: rgba(216, 214, 212, 0.816);
+}
+
+
+/* navbar */
+.navbar {
+    background-color: rgb(0, 0, 0);
+}
+
+.navbar .container-fluid .collapse .navbar-nav .nav-item a {
+    font-family: "Rufina", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    transition: 0.5s;
+    color: rgb(255, 255, 255);
+}
+
+.navbar .container-fluid .collapse .navbar-nav .nav-item a:hover {
+    transform: scale(1.1);
+    color: orange;
+}
+
+
+/* background img */
+.header-col2{
+    background: url("./../images/services images/services1.jpg");
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100vw;
+    margin-top: 00px;
+   }
+   
+   .header-col1{
+       position: absolute;
+       width: 50vw;
+       text-align: center;
+       left: 25%;
+       top: 40%;
+       letter-spacing: 3px;
+   }
+   .header-col1 h5{
+       font-weight: 30; 
+   }
+   .page-name{
+       text-align: center;
+       font-family: 'Times New Roman', Times, serif;
+       font-size: 100px;
+   }
+
+   /* cards */
+.card{
+    margin-top: 40px;
+}
+.card:hover{
+    box-shadow:1px 1px 1px 2px grey;
+    transform: scale(1.0);
+}
+
+
+.aboutcompany{
+    
+    font-size: 50px;
+    font-weight: 900;
+    padding-top:17px ;
+    height: 90px;
+    margin-top: 50px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline orange;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-evenly;
+}
+.logo1{
+    height: 100px;
+    width: 80px;
+    margin-left: 0px;
+    margin-top: 100px;
+
+}
+
+.logo2{
+    height: 100px;
+    width: 80px;
+    margin-left: 0px;
+    margin-top: 100px;
+}
+
+.logo3{
+    height: 100px;
+    width: 80px;
+    margin-left: 0px;
+    margin-top: 100px;
+}
+.corevalue{
+    margin-top: 40px;
+        padding-top:17px ;
+        height: 90px;
+        text-align: center;
+        color: white;
+        background-color:rgb(122, 121, 121) ;
+        transition-duration: 1s; 
+}
+.corevalue:hover{
+    color: rgba(249, 192, 124, 0.797);
+    text-decoration: underline;
+}
+
+
+/* footer */
+
+.footer {
+    width: auto;
+    min-height: 517px;
+    border-bottom: 0.3px solid black;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+
+.footer-para {
+    margin: auto;
+    max-width: 600px;
+    min-height: 600px;
+}
+
+.footer-para img{
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+
+.footer-para p{
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    line-height: 32px;
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+.footer-para p a{
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    line-height: 32px;
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+}
+
+.footer-para p a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+
+.info {
+    margin: auto;
+    height: 400px;
+    width: 300px;
+    
+}
+
+.info-1{
+    margin-top: 160px;
+}
+
+
+.info h1 {
+    color: orange;
+    font-size: 42px;
+    line-height: 56px;
+    font-family: "Rufina", serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+}
+
+.info p {
+    display: block;
+    
+}
+
+.info p a{
+    display: block;
+    font-size: 18px;
+    line-height: 26px;
+    color: rgb(255, 255, 255);
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+}
+
+.info p a:hover{
+    text-decoration: underline;
+    color: orange;
+}
+
+.info .icons {
+    
+    
+    line-height: 60px;
+    margin: auto;
+    margin-top: 35px !important;
+}
+
+.info i{
+    display: block;
+    justify-items: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.info i:hover{
+    color: orange;
+}
+@media screen and (max-width: 950px) {
+
+    .footer-para{
+        width: 300px;
+        margin-bottom: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
