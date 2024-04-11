@@ -34,19 +34,49 @@ body{
 
 /* 2nd image and heading */
 .heading{
+    font-size: 50px;
+    font-weight: 900;
     padding-top:17px ;
     height: 90px;
     text-align: center;
-    color: white;
-    background-color:rgb(88, 87, 87) ;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline orange;
 }
 
-.img{
+.img-fluid{
     height: 700px;
     width: 900px;
-    margin-top:50px ;
+    margin-top:60px ;
     margin-left: 300px;
+    margin-bottom:60px ;
 }
+
+/* cards */
+.row{
+    margin-top: 80px;
+    margin-left: 70px;
+    margin-right: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.img{
+    transition: 1s;
+}
+.img:hover{
+    transform: scale(1.1);
+    box-shadow: 1px 3px 20px 10px grey;
+}
+.h2{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    text-align: left;
+}
+.p{
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+
 
 
 
