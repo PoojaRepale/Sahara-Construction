@@ -7,14 +7,18 @@ body {
 
 /* media query */
 @media screen and (max-width: 950px) {
-    
 
-    .addr{
-        margin: auto;
+    .contact{
+        width: auto;
     }
 
-    .isolate{
-        margin: 30px auto;
+    .addr{
+        
+        width: auto;
+    }
+
+    .form-box{
+        margin: 50px auto;
     }
 
     .address{
@@ -110,21 +114,23 @@ section .box h1 {
     margin: 30px auto;
 }
 
+
+/* contact */
 .contact {
     min-height: 700px;
-    width: auto;
+    width: 100vw;
     /* border: 1px solid black; */
     align-content: center;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin: 50px 30px;
+    margin: 50px auto;
 }
 
 .addr {
     min-height: 700px;
     width: 680px;
-    background-color: rgba(255, 166, 0, 0.176);
+    background-color: rgba(255, 166, 0, 0.053);
 
 }
 
@@ -166,21 +172,109 @@ section .box h1 {
 }
 
 
+/* form */
 
-.isolate {
-    /* min-height: 700px; */
-    width: 700px;
-    background-color: rgba(255, 166, 0, 0.176);
+.form-box{
+    min-height: 700px;
+    width: 680px;
+    background-color: rgba(255, 166, 0, 0.053);
 }
 
-form {
+.container {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="tel"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: orange;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: rgba(255, 166, 0, 0.751);
+  }
+
+
+  .map{
+    width: 90vw;
+    height: 350px;
+    
+    margin: 50px auto;
+
+  }
+
+  .map iframe{
+    width: 90vw;
+    height: 350px;
+    border: 1px solid black;
+    
+
+  }
+  
+
+
+
+/* form {
 
     min-height: 680px;
-
+    width: 700px;
+    background-color: rgba(255, 166, 0, 0.176);
 
 
 }
 
+.box{
+    max-width: 600px;
+    height: auto;
+    margin: auto;
+    border: 1px solid black;
+}
+
+#name{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.name{
+    width: 280px !important;
+} */
 
 
 
