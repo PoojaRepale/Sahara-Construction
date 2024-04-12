@@ -28,7 +28,8 @@ body{
  background-position: center ;
  background-repeat: no-repeat;
  background-size: cover;
- height: 80vh;
+ filter: blur(2px);
+ height: 70vh;
  width: 100vw;
  margin-top: 00px;
 }
@@ -73,7 +74,7 @@ body{
 }
 }
 /* cards */
-.row{
+ .row{
     margin-top: 80px;
     margin-left: 70px;
     margin-right: 70px;
@@ -95,8 +96,7 @@ body{
 .p{
     color: rgb(0, 0, 0);
     text-align: left;
-}
-
+} 
 
 
 
