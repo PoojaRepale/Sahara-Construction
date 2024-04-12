@@ -43,11 +43,12 @@ body{
 
 /* background img */
 .header-col2{
-    background: url("./../images/services-images/");
+    background: url("./../images/Project-images/1.jpeg");
     background-position: center ;
+    filter: blur(3px);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 80vh;
+    height: 70vh;
     width: 100vw;
     margin-top: 00px;
    }
@@ -68,12 +69,47 @@ body{
        font-family: 'Times New Roman', Times, serif;
        font-size: 100px;
    }
+/* Current project cards */
+.row{
+    margin-top: 80px;
+    margin-left: 70px;
+    margin-right: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.img{
+    transition: 1s;
+}
+.img:hover{
+    transform: scale(1.1);
+    box-shadow: 1px 3px 20px 10px grey;
+}
+.h2{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    text-align: left;
+}
+.p{
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
 
-
-
-
-
-
+/* private sector cards */
+.cards{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card{
+    transition: 1s;
+}
+.card:hover{
+    box-shadow: 1px 3px 20px 10px grey;
+}
 
 /* footer */
 

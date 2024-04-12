@@ -29,7 +29,7 @@ body{
     background-position: center ;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 80vh;
+    height: 70vh;
     width: 100vw;
     margin-top: 00px;
    }
@@ -67,7 +67,7 @@ body{
     font-weight: 900;
     padding-top:17px ;
     height: 90px;
-    margin-top: 50px;
+    margin-top: 100px;
     text-align: center;
     color: rgb(0, 0, 0);
     font-family: 'Times New Roman', Times, serif;
@@ -78,40 +78,94 @@ body{
     display: flex;
     justify-content: space-evenly;
 }
+.logo:hover{
+    transform: scale(1.0);
+}  
+
 .logo1{
     height: 100px;
     width: 80px;
     margin-left: 0px;
     margin-top: 100px;
-
+    transition: 1s;
+    
 }
+.logo1:hover{
+    transform: scale(1.1);
+}  
 
 .logo2{
     height: 100px;
     width: 80px;
     margin-left: 0px;
     margin-top: 100px;
+    transition: 1s;
 }
+.logo2:hover{
+    transform: scale(1.1);
+}  
 
 .logo3{
     height: 100px;
     width: 80px;
     margin-left: 0px;
     margin-top: 100px;
+    transition: 1s;
 }
+.logo3:hover{
+    transform: scale(1.1);
+}  
 .corevalue{
-    margin-top: 40px;
-        padding-top:17px ;
-        height: 90px;
-        text-align: center;
-        color: white;
-        background-color:rgb(122, 121, 121) ;
-        transition-duration: 1s; 
+
+    font-size: 50px;
+    font-weight: 900;
+    padding-top:17px ;
+    height: 90px;
+    margin-top: 50px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline orange;
+
 }
+
+    
 .corevalue:hover{
-    color: rgba(249, 192, 124, 0.797);
+    
     text-decoration: underline;
 }
+.logo4{
+    height: 100px;
+    width: 80px;
+    margin-left: 0px;
+    margin-top: 40px;
+    transition: 1s;
+}
+.logo4:hover{
+    transform: scale(1.1);
+}  
+.logo5{
+    height: 100px;
+    width: 80px;
+    margin-left: 0px;
+    margin-top: 40px;
+    transition: 1s;
+    
+}
+.logo5:hover{
+    transform: scale(1.1);
+}  
+
+.logo6{
+    height: 100px;
+    width: 80px;
+    margin-left: 0px;
+    margin-top: 40px;
+    transition: 1s;
+}
+.logo6:hover{
+    transform: scale(1.1);
+}  
 
 
 /* footer */
@@ -235,7 +289,36 @@ body{
     }
 }
 
+.cards {
 
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card {
+    box-shadow: -2px 3px 12px 2px gray;
+    margin-top: 30px;
+    border: 1px solid gray;
+    transition: 1.5s;
+    height: 500px;
+    width: 550px;
+    
+}
+
+.card:hover {
+    box-shadow: -2px 6px 12px 5px grey;
+    transform: scale(1.05);
+}
+
+.card-1 {
+    position: relative;
+}
+
+
+.card-2 {
+    position: relative;
+}
 
 
 
