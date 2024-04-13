@@ -30,6 +30,7 @@ body{
     background-position: center ;
     background-repeat: no-repeat;
     background-size: cover;
+    filter: blur(3px);
     height: 80vh;
     width: 100vw;
     margin-top: 00px;
@@ -58,6 +59,7 @@ body{
     margin-bottom: 50px;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .card{
     transition: 1s;
