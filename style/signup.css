@@ -1,26 +1,41 @@
 body {
-    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 950px) {
+    section {
+        height: auto;
+
+    }
+
+    .box{
+        width: auto;
+    }
 }
 
 section {
     background: url("./../images/sign/sign.jpeg") no-repeat;
     background-size: cover;
-    height: 850px;
+    width: 100vw;
+    align-content: center;
+    
 }
 
-img{
+img {
     height: 100px;
     width: 150px;
 }
 
 form {
     background-color: black;
-    height: 850px;
-    width: auto;
+    min-height: 850px;
+    /* width: 50vw; */
     opacity: 0.7;
+    margin: auto;
+    align-content: center;
 }
 
-.main h2{
+.main h2 {
     font-size: 36px;
     line-height: 48px;
     color: rgb(255, 255, 255);
@@ -31,18 +46,21 @@ form {
 }
 
 .box {
-    position: absolute;
-    left: 400px;
-    top: 50px;
+    
+    /* margin: auto; */
+    min-height: auto;
+    width: 50vw;
+    border: 1px solid red;
     margin: auto;
-    height: auto;
-    width: 700px;
+    align-content: center;
 }
 
 
 .main {
-    height: 850px;
-    width: auto;
+    min-height: 100vh;
+    width: 100vw;
     background-color: black;
     opacity: 0.8;
+    align-content: center;
+    margin: auto;
 }
