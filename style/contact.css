@@ -248,44 +248,11 @@ section .box h1 {
   }
   
 
-
-
-/* form {
-
-    min-height: 680px;
-    width: 700px;
-    background-color: rgba(255, 166, 0, 0.176);
-
-
-}
-
-.box{
-    max-width: 600px;
-    height: auto;
-    margin: auto;
-    border: 1px solid black;
-}
-
-#name{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.name{
-    width: 280px !important;
-} */
-
-
-
-
-
-
 /* footer */
 footer {
     width: 100vw;
     background-color: black;
-    min-height: 600px;
+    min-height: 550px;
     align-content: center;
     border-bottom: 2px solid white;
 }
@@ -303,27 +270,26 @@ footer {
 }
 
 .address {
-    min-height: 375px;
+    height: 475px;
     width: 550px;
-    
     align-content: center;
     /* border: 1px solid white; */
 }
 
 .address img {
-    max-height: 150px;
-    max-width: 200px;
+    max-height: 100px;
+    max-width: 150px;
     display: block;
     margin: auto;
 }
 
 .address .add {
-    
-    
+
+
     height: auto;
     /* border: 1px solid white; */
     width: 550px;
-    /* padding: 5px; */
+    padding: 5px;
 
 }
 
@@ -332,7 +298,7 @@ footer {
     font-size: 40px;
     /* line-height: 50px; */
     text-align: center;
-    margin: auto 20px ;
+    margin: auto;
     /* margin-top: 20px !important; */
 }
 
@@ -343,7 +309,7 @@ footer {
     font-family: "PT Serif", serif;
     font-weight: 400;
     font-style: normal;
-    margin:10px auto;
+    margin: 10px auto;
     /* display: block; */
     text-align: center;
 }
@@ -367,10 +333,10 @@ footer {
 .pages a {
     text-decoration: none;
     color: rgb(255, 255, 255);
-    font-size: 22px;
+    font-size: 24px;
     line-height: 32px;
     font-family: "PT Serif", serif;
-    font-weight: 400;
+    font-weight: 200;
     font-style: normal;
     display: block;
     padding: 10px;
@@ -383,7 +349,7 @@ footer {
 }
 
 .dot {
-    height: 375px;
+    height: 455px;
     width: 250px;
     margin: 20px;
     /* margin-top: 70px; */
@@ -398,6 +364,7 @@ footer {
     font-weight: 400;
     font-style: normal;
     text-align: center;
+    margin-top: 30px;
 }
 
 .info .icons {

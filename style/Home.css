@@ -16,7 +16,51 @@ body {
         margin: 20px 0px;
     }
 
-    .review .para {
+    .transform {
+        margin: auto;
+        /* width: auto; */
+    }
+
+
+
+    .transform-para h1 {
+        line-height: normal;
+        font-size: 12px;
+        height: auto;
+    }
+
+
+    .transform:hover>.transform-para {
+        width: auto;
+        height: auto;
+    }
+
+    .transform:hover>.transform-para>h1 {
+        font-size: 42px;
+        line-height: 46px;
+        margin: 20px 0px;
+    }
+
+    .transform:hover>.transform-para>p {
+        font-size: 20;
+        line-height: 28px;
+    }
+
+    .block-container {
+        height: auto;
+        margin: 30px 0px;
+    }
+
+    .block-container img {
+        margin: 30px 0px;
+    }
+
+
+
+
+
+
+    /* .review .para {
         width: 250px;
     }
 
@@ -30,7 +74,7 @@ body {
 
     .review .para h5 {
         text-align: center;
-    }
+    } */
 
     footer {
         height: auto;
@@ -66,7 +110,7 @@ body {
 
 /* image main */
 section {
-    background: url(./../images/home-images/main.webp) no-repeat;
+    background: url("./../images/home-images/main.webp") no-repeat;
     background-size: cover;
     height: 700px;
     position: relative;
@@ -109,30 +153,37 @@ section .box p {
 }
 
 
+/* transform */
+
 .transform {
-    margin: 30px;
+    margin: 30px auto;
     background: url("./../images/home-images/photo-1587582423116-ec07293f0395.jpeg") no-repeat;
-    height: 90vh;
+    min-height: 80vh;
+    width: 96vw;
     background-size: cover;
     align-content: start;
-    display: block;
+
     transition: 1s;
+    border-radius: 10px;
 
 }
 
 .transform:hover {
     opacity: 0.8;
+    border-radius: 10px;
 }
 
 .transform:hover>.transform-para {
     opacity: 1;
+    transition: 2s;
 }
 
 .transform:hover>.transform-para>h1 {
     background-color: #0000005b;
     background-image: linear-gradient(330deg, #000000fb 30%, #ffa600 80%);
-
 }
+
+
 
 .transform:hover>.transform-para>p {
     background-color: #0000005b;
@@ -142,8 +193,8 @@ section .box p {
 
 .transform .transform-para {
     /* border: 3px solid red; */
-    width: 1000px;
-    height: 550px;
+    width: 950px;
+    min-height: 400px;
     margin: 30px;
     opacity: 0;
     transition: 2s;
@@ -208,6 +259,8 @@ section .box p {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    /* border: 1px solid black; */
+    min-height: 250px;
 }
 
 .service-points .point {
@@ -261,11 +314,19 @@ section .box p {
 
 
 /* images */
+
+.main-block {
+    min-height: 1100px;
+    /* border: 1px solid black; */
+    width: 100%;
+    align-content: center;
+}
+
 #block {
     /* padding: 5rem 0 10rem 0; */
-    height: 300px;
-    width: 96vw;
-    margin: 50px;
+    min-height: 400px;
+    width: auto;
+    /* margin: 50px; */
     /* border: 1px solid black; */
     align-content: center;
 }
@@ -280,27 +341,27 @@ section .box p {
 }
 
 .block-container {
-    height: 250px;
-    width: 90vw;
+    min-height: 250px;
+    width: auto;
     /* border: 1px solid black; */
     display: flex;
-    justify-content: space-around;
-
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     align-content: center;
 
 }
 
 .block-container img {
     display: block;
-    width: 100%;
+    width: 300px;
 
-    max-height: 250px;
+    height: 200px;
     object-fit: cover;
     object-position: center;
 }
 
 .img-container {
-    margin: 0 1rem;
+    /* margin: 0 1rem; */
     position: relative;
     /* border-radius: 10px; */
 }
@@ -308,7 +369,7 @@ section .box p {
 .img-container img {
     height: 300px;
     width: 400px;
-    
+
     border-radius: 10px;
 }
 
@@ -395,48 +456,6 @@ section .box p {
 }
 
 
-/* review */
-/* 
-.review {
-    min-height: 500px;
-
-
-}
-
-.review .para {
-    margin: auto;
-    max-width: 950px;
-}
-
-.review img {
-    height: 120px;
-    width: 120px;
-    display: block;
-    border-radius: 50%;
-    border: 6px solid orange;
-    margin: 10px;
-}
-
-.review .para p {
-    color: black;
-    font-size: 32px;
-    line-height: 40px;
-    font-family: "Rufina", serif;
-    font-weight: 700;
-    font-style: normal;
-}
-
-.review .para h5 {
-    font-size: 18px;
-    line-height: 28px;
-    color: orange;
-    font-family: "PT Serif", serif;
-    font-weight: 400;
-    font-style: normal;
-} */
-
-
-
 /* footer */
 footer {
     width: 100vw;
@@ -459,16 +478,15 @@ footer {
 }
 
 .address {
-    min-height: 375px;
+    height: 475px;
     width: 550px;
-
     align-content: center;
     /* border: 1px solid white; */
 }
 
 .address img {
-    max-height: 150px;
-    max-width: 200px;
+    max-height: 100px;
+    max-width: 150px;
     display: block;
     margin: auto;
 }
@@ -479,7 +497,7 @@ footer {
     height: auto;
     /* border: 1px solid white; */
     width: 550px;
-    /* padding: 5px; */
+    padding: 5px;
 
 }
 
@@ -488,7 +506,7 @@ footer {
     font-size: 40px;
     /* line-height: 50px; */
     text-align: center;
-    margin: auto 20px;
+    margin: auto;
     /* margin-top: 20px !important; */
 }
 
@@ -523,10 +541,10 @@ footer {
 .pages a {
     text-decoration: none;
     color: rgb(255, 255, 255);
-    font-size: 22px;
+    font-size: 24px;
     line-height: 32px;
     font-family: "PT Serif", serif;
-    font-weight: 400;
+    font-weight: 200;
     font-style: normal;
     display: block;
     padding: 10px;
@@ -539,7 +557,7 @@ footer {
 }
 
 .dot {
-    height: 375px;
+    height: 455px;
     width: 250px;
     margin: 20px;
     /* margin-top: 70px; */
@@ -554,6 +572,7 @@ footer {
     font-weight: 400;
     font-style: normal;
     text-align: center;
+    margin-top: 30px;
 }
 
 .info .icons {
