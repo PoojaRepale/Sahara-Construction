@@ -31,7 +31,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     filter: blur(3px);
-    height: 80vh;
+    height: 70vh;
     width: 100vw;
     margin-top: 00px;
    }
@@ -44,15 +44,17 @@ body{
        top: 40%;
        letter-spacing: 3px;
    }
+
    .header-col1 h5{
        font-weight: 30; 
    }
+   
    .page-name{
        text-align: center;
        font-family: 'Times New Roman', Times, serif;
        font-size: 100px;
    }
-
+   
    /* cards */
 .cards{
     margin-top: 80px;
@@ -194,6 +196,7 @@ body{
 }  
 
 
+
 /* footer */
 footer {
     width: 100vw;
@@ -216,16 +219,15 @@ footer {
 }
 
 .address {
-    min-height: 375px;
+    height: 475px;
     width: 550px;
-
     align-content: center;
     /* border: 1px solid white; */
 }
 
 .address img {
-    max-height: 150px;
-    max-width: 200px;
+    max-height: 100px;
+    max-width: 150px;
     display: block;
     margin: auto;
 }
@@ -236,7 +238,7 @@ footer {
     height: auto;
     /* border: 1px solid white; */
     width: 550px;
-    /* padding: 5px; */
+    padding: 5px;
 
 }
 
@@ -245,7 +247,7 @@ footer {
     font-size: 40px;
     /* line-height: 50px; */
     text-align: center;
-    margin: auto 20px;
+    margin: auto;
     /* margin-top: 20px !important; */
 }
 
@@ -280,10 +282,10 @@ footer {
 .pages a {
     text-decoration: none;
     color: rgb(255, 255, 255);
-    font-size: 22px;
+    font-size: 24px;
     line-height: 32px;
     font-family: "PT Serif", serif;
-    font-weight: 400;
+    font-weight: 200;
     font-style: normal;
     display: block;
     padding: 10px;
@@ -296,7 +298,7 @@ footer {
 }
 
 .dot {
-    height: 375px;
+    height: 455px;
     width: 250px;
     margin: 20px;
     /* margin-top: 70px; */
@@ -311,6 +313,7 @@ footer {
     font-weight: 400;
     font-style: normal;
     text-align: center;
+    margin-top: 30px;
 }
 
 .info .icons {
